@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head><meta charset="UTF-8"></head>
+  <body>
+    <template>
+      <style>
+#s03-root { position:absolute; inset:0; }
+#s03-root .stage { position:absolute; inset:0; }
+#s03-root .hd { position:absolute; left:140px; top:96px; }
+#s03-root .z { top:280px; width:480px; height:500px; display:flex; flex-direction:column; align-items:center; padding-top:48px; gap:14px; color:var(--muted); }
+#s03-root .z .ic { width:72px; height:72px; stroke-width:1.4; }
+#s03-root .z .nm { font-size:50px; font-weight:600; color:var(--text); letter-spacing:-0.015em; }
+#s03-root .z0 { left:140px; }
+#s03-root .z1 { left:720px; }
+#s03-root .z2 { left:1300px; }
+#s03-root .wire .ar { stroke:#3a4842; }
+#s03-root .wire .ah { fill:#3a4842; }
+#s03-root .f { position:absolute; top:560px; width:400px; height:150px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; }
+
+#s03-root .f0 { left:180px; border-color:rgba(245,197,24,.6); }
+
+      </style>
+      <div data-hf-id="hf-4ups" id="s03-root" data-composition-id="s03" data-width="1920" data-height="1080">
+        <div data-hf-id="hf-tan6" class="stage">
+
+<h1 data-hf-id="hf-lcc7" class="hd">Trzy miejsca <span data-hf-id="hf-dolt" class="g">na zmiany</span></h1>
+
+<svg data-hf-id="hf-dimw" class="wire" viewBox="0 0 1920 1080"><path data-hf-id="hf-ts5l" class="ar ar0" pathLength="1" d="M632 530 L706 530" /><polygon data-hf-id="hf-byku" class="ah ah0" points="714,530 700,521 700,539" /><path data-hf-id="hf-439p" class="ar ar1" pathLength="1" d="M1212 530 L1286 530" /><polygon data-hf-id="hf-sbs5" class="ah ah1" points="1294,530 1280,521 1280,539" /></svg>
+<div data-hf-id="hf-sp0u" class="card z z0"><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-61x5" d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" /> </svg> <div data-hf-id="hf-ezj2" class="nm">Katalog roboczy</div><div data-hf-id="hf-x4hs" class="mono">edytujesz</div></div>
+<div data-hf-id="hf-wn4v" class="card z z1"><svg data-hf-id="hf-9ojp" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <polyline data-hf-id="hf-6atb" points="22 12 16 12 14 15 10 15 8 12 2 12" /> <path data-hf-id="hf-fju3" d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" /> </svg> <div data-hf-id="hf-vjru" class="nm">Poczekalnia</div><div data-hf-id="hf-34em" class="mono">staging</div></div>
+<div data-hf-id="hf-nz90" class="card z z2"><svg data-hf-id="hf-avgs" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <ellipse data-hf-id="hf-z7vs" cx="12" cy="5" rx="9" ry="3" /> <path data-hf-id="hf-a1jg" d="M3 5V19A9 3 0 0 0 21 19V5" /> <path data-hf-id="hf-b07u" d="M3 12A9 3 0 0 0 21 12" /> </svg> <div data-hf-id="hf-jeug" class="nm">Repozytorium</div><div data-hf-id="hf-5d7m" class="mono">historia</div></div>
+<div data-hf-id="hf-mpfy" class="card f f0"><span data-hf-id="hf-d2x0" class="mono">app.js</span><span data-hf-id="hf-41ps" class="lb y">zmieniony</span></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var R = "#s03-root ";
+          var $ = function (s) { return R + s; };
+          var V = function (w) { return w + 0.3; };
+          var E = "power3.out", IO = "power2.inOut";
+          var tl = gsap.timeline({ paused: true });
+          function type(sel, t, step) {
+            var els = document.querySelectorAll(R + sel + " .ch");
+            for (var i = 0; i < els.length; i++) tl.set(els[i], { display: "inline" }, t + i * (step || 0.045));
+          }
+          function draw(sel, t, d) {
+            tl.fromTo($(sel), { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.5, ease: "power2.out" }, t);
+          }
+          tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
+tl.fromTo($(".z0"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(2.25) - 0.1);
+tl.fromTo($(".z1"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.24) - 0.1);
+tl.fromTo($(".z2"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(6.04) - 0.1);
+tl.fromTo([$(".ar0"), $(".ah0")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(4.0));
+tl.fromTo([$(".ar1"), $(".ah1")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(5.8));
+tl.fromTo($(".f0"), { opacity: 0, scale: 0.95 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(3.4));
+
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 7.65);
+          window.__timelines["s03"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

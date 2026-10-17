@@ -1,0 +1,256 @@
+{
+  "Metadata": [
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 1000000,
+        "Duration": 2045410,
+        "text": {
+          "Text": "Gdy",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 3045410,
+        "Duration": 3522910,
+        "text": {
+          "Text": "funkcja",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 6568330,
+        "Duration": 1363330,
+        "text": {
+          "Text": "jest",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 7931660,
+        "Duration": 5227080,
+        "text": {
+          "Text": "gotowa",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 14522910,
+        "Duration": 2954160,
+        "text": {
+          "Text": "łączysz",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 17477080,
+        "Duration": 3295410,
+        "text": {
+          "Text": "gałęzie",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 20772910,
+        "Duration": 4317910,
+        "text": {
+          "Text": "komendą",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 25090830,
+        "Duration": 2045410,
+        "text": {
+          "Text": "git",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 27136250,
+        "Duration": 5113750,
+        "text": {
+          "Text": "merdż",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 39931660,
+        "Duration": 3181660,
+        "text": {
+          "Text": "Jeśli",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 43113750,
+        "Duration": 1704580,
+        "text": {
+          "Text": "dwie",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 44818330,
+        "Duration": 2727080,
+        "text": {
+          "Text": "osoby",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 47545410,
+        "Duration": 3181660,
+        "text": {
+          "Text": "zmieniły",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 50727080,
+        "Duration": 909160,
+        "text": {
+          "Text": "tę",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 51636250,
+        "Duration": 2727080,
+        "text": {
+          "Text": "samą",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 54363750,
+        "Duration": 3977080,
+        "text": {
+          "Text": "linię",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 59590830,
+        "Duration": 2159160,
+        "text": {
+          "Text": "Git",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 61750000,
+        "Duration": 3295410,
+        "text": {
+          "Text": "zgłosi",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 65045410,
+        "Duration": 4659160,
+        "text": {
+          "Text": "konflikt",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 69704580,
+        "Duration": 1022500,
+        "text": {
+          "Text": "do",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 70727080,
+        "Duration": 6818330,
+        "text": {
+          "Text": "rozwiązania",
+          "Length": 11,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    }
+  ]
+}

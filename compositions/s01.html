@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head><meta charset="UTF-8"></head>
+  <body>
+    <template>
+      <style>
+#s01-root { position:absolute; inset:0; }
+#s01-root .stage { position:absolute; inset:0; }
+
+#s01-root .ed { left:360px; top:110px; width:1200px; height:450px; overflow:hidden; }
+#s01-root .ed .top { height:80px; display:flex; align-items:center; gap:12px; padding:0 28px; border-bottom:1.5px solid var(--line); }
+#s01-root .ed .top i { display:block; width:16px; height:16px; border-radius:50%; background:#2b3632; }
+#s01-root .ed .top span { margin-left:16px; }
+#s01-root .code { padding:28px 0; }
+#s01-root .ln { display:flex; align-items:center; height:66px; padding:0 40px; gap:30px; border-radius:0; }
+#s01-root .ln .no { width:40px; color:#6f7d77; }
+#s01-root .bad .ic { width:40px; height:40px; color:var(--yellow); margin-left:auto; }
+#s01-root .q { position:absolute; left:1590px; top:330px; width:300px; color:var(--muted); font-size:120px; font-weight:600; }
+#s01-root .ft { position:absolute; left:0; right:0; top:680px; text-align:center; font-size:108px; }
+#s01-root .sub { position:absolute; left:0; right:0; top:830px; text-align:center; color:var(--muted); }
+
+      </style>
+      <div data-hf-id="hf-qdxc" id="s01-root" data-composition-id="s01" data-width="1920" data-height="1080">
+        <div data-hf-id="hf-tan6" class="stage">
+
+<div data-hf-id="hf-iuld" class="card ed"><div data-hf-id="hf-sijt" class="top"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i><span data-hf-id="hf-a1rp" class="mono muted">app.js</span></div>
+  <div data-hf-id="hf-qevj" class="code"><div data-hf-id="hf-1xqf" class="ln mono"><span data-hf-id="hf-kh2n" class="no">1</span><span data-hf-id="hf-nusv">function&#160;login(user)&#160;{</span></div><div data-hf-id="hf-vpyf" class="ln mono"><span data-hf-id="hf-k2rm" class="no">2</span><span data-hf-id="hf-qjj8">&#160;&#160;const&#160;ok&#160;=&#160;check(user);</span></div><div data-hf-id="hf-cxhq" class="ln mono bad"><span data-hf-id="hf-jogl" class="no">3</span><span data-hf-id="hf-mhxt">&#160;&#160;return&#160;ok&#160;&amp;&amp;&#160;sav(user)</span><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-fn22" d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /> <path data-hf-id="hf-mlkx" d="M12 9v4" /> <path data-hf-id="hf-c2s1" d="M12 17h.01" /> </svg> </div><div data-hf-id="hf-vbne" class="ln mono"><span data-hf-id="hf-mgls" class="no">4</span><span data-hf-id="hf-odec">}</span></div></div>
+</div>
+<div data-hf-id="hf-okze" class="q">?</div>
+<h1 data-hf-id="hf-hevd" class="hd ft"><span data-hf-id="hf-ncu0" class="g">Git</span> pamięta za ciebie</h1>
+<div data-hf-id="hf-n9ps" class="sub lb">historia · gałęzie · współpraca</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var R = "#s01-root ";
+          var $ = function (s) { return R + s; };
+          var V = function (w) { return w + 0.3; };
+          var E = "power3.out", IO = "power2.inOut";
+          var tl = gsap.timeline({ paused: true });
+          function type(sel, t, step) {
+            var els = document.querySelectorAll(R + sel + " .ch");
+            for (var i = 0; i < els.length; i++) tl.set(els[i], { display: "inline" }, t + i * (step || 0.045));
+          }
+          function draw(sel, t, d) {
+            tl.fromTo($(sel), { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.5, ease: "power2.out" }, t);
+          }
+          tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+
+tl.fromTo($(".ed"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.1);
+tl.fromTo($(".ln"), { opacity: 0, x: -12 }, { opacity: 1, x: 0, duration: 0.4, ease: E, stagger: 0.12 }, V(0.3));
+tl.to($(".bad"), { backgroundColor: "rgba(245,197,24,.10)", duration: 0.4 }, V(1.4));
+tl.fromTo($(".bad .ic"), { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.4, ease: E }, V(1.5));
+tl.fromTo($(".q"), { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(2.8));
+tl.to($(".q"), { opacity: 0, duration: 0.4 }, V(4.2));
+tl.fromTo($(".ft"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, V(4.4));
+tl.fromTo($(".sub"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.8));
+
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 9.25);
+          window.__timelines["s01"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

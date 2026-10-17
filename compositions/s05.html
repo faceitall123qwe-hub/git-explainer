@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head><meta charset="UTF-8"></head>
+  <body>
+    <template>
+      <style>
+#s05-root { position:absolute; inset:0; }
+#s05-root .stage { position:absolute; inset:0; }
+#s05-root .hd { position:absolute; left:140px; top:96px; }#s05-root .n { position:absolute; width:72px; height:72px; border-radius:50%; background:var(--panel); border:3px solid var(--green); }
+#s05-root .hs { position:absolute; top:584px; width:300px; text-align:center; color:var(--muted); }
+#s05-root .hs0 { left:150px; }
+#s05-root .hs1 { left:480px; }
+#s05-root .hs2 { left:810px; }
+#s05-root .hs3 { left:1140px; }
+#s05-root .hs4 { left:1470px; }
+#s05-root .wire .ar { stroke:#3a4842; } #s05-root .wire .ah { fill:#3a4842; }
+#s05-root .head { position:absolute; left:1530px; top:360px; width:180px; height:72px; border-radius:20px; border:2px solid var(--yellow);
+  background:rgba(245,197,24,.08); color:var(--yellow); display:flex; align-items:center; justify-content:center; }
+#s05-root .cap { position:absolute; left:0; right:0; top:800px; text-align:center; font-size:56px; font-weight:600; letter-spacing:-0.02em; }
+
+      </style>
+      <div data-hf-id="hf-848w" id="s05-root" data-composition-id="s05" data-width="1920" data-height="1080">
+        <div data-hf-id="hf-tan6" class="stage">
+
+<h1 data-hf-id="hf-3pgf" class="hd">Commity tworzą <span data-hf-id="hf-8iak" class="g">łańcuch</span></h1>
+<svg data-hf-id="hf-dimw" class="wire" viewBox="0 0 1920 1080"><path data-hf-id="hf-8s87" class="ar ar0" pathLength="1" d="M586 520 L348 520" /><polygon data-hf-id="hf-37qh" class="ah ah0" points="342,520 358,510 358,530" /><path data-hf-id="hf-p45r" class="ar ar1" pathLength="1" d="M916 520 L678 520" /><polygon data-hf-id="hf-91x6" class="ah ah1" points="672,520 688,510 688,530" /><path data-hf-id="hf-rbq9" class="ar ar2" pathLength="1" d="M1246 520 L1008 520" /><polygon data-hf-id="hf-z559" class="ah ah2" points="1002,520 1018,510 1018,530" /><path data-hf-id="hf-7eey" class="ar ar3" pathLength="1" d="M1576 520 L1338 520" /><polygon data-hf-id="hf-47ee" class="ah ah3" points="1332,520 1348,510 1348,530" /></svg>
+<div data-hf-id="hf-l8ep" class="n c c0" style="left:264px; top:484px"></div><div data-hf-id="hf-cwpu" class="n c c1" style="left:594px; top:484px"></div><div data-hf-id="hf-2cdq" class="n c c2" style="left:924px; top:484px"></div><div data-hf-id="hf-uyw8" class="n c c3" style="left:1254px; top:484px"></div><div data-hf-id="hf-et4h" class="n c c4" style="left:1584px; top:484px"></div>
+<div data-hf-id="hf-uhu5" class="hs hs0 mono">a1f3c20</div><div data-hf-id="hf-ut69" class="hs hs1 mono">9b2e77c</div><div data-hf-id="hf-t2f3" class="hs hs2 mono">3fa09d1</div><div data-hf-id="hf-g0am" class="hs hs3 mono">e81c4a2</div><div data-hf-id="hf-6zpv" class="hs hs4 mono">7d4b9e1</div>
+<div data-hf-id="hf-15ll" class="head mono">HEAD</div>
+<div data-hf-id="hf-1ayv" class="cap">Wróć do <span data-hf-id="hf-74kw" class="y">dowolnego</span> momentu</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var R = "#s05-root ";
+          var $ = function (s) { return R + s; };
+          var V = function (w) { return w + 0.3; };
+          var E = "power3.out", IO = "power2.inOut";
+          var tl = gsap.timeline({ paused: true });
+          function type(sel, t, step) {
+            var els = document.querySelectorAll(R + sel + " .ch");
+            for (var i = 0; i < els.length; i++) tl.set(els[i], { display: "inline" }, t + i * (step || 0.045));
+          }
+          function draw(sel, t, d) {
+            tl.fromTo($(sel), { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.5, ease: "power2.out" }, t);
+          }
+          tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
+tl.fromTo([$(".c0"), $(".hs0")], { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: E }, V(0.5) + 0 * 0.2);
+tl.fromTo([$(".c1"), $(".hs1")], { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: E }, V(0.5) + 1 * 0.2);
+tl.fromTo([$(".c2"), $(".hs2")], { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: E }, V(0.5) + 2 * 0.2);
+tl.fromTo([$(".c3"), $(".hs3")], { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: E }, V(0.5) + 3 * 0.2);
+tl.fromTo([$(".c4"), $(".hs4")], { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: E }, V(0.5) + 4 * 0.2);
+draw(".ar0", V(0.6) + 1 * 0.2, 0.3); tl.fromTo($(".ah0"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, V(0.85) + 1 * 0.2);
+draw(".ar1", V(0.6) + 2 * 0.2, 0.3); tl.fromTo($(".ah1"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, V(0.85) + 2 * 0.2);
+draw(".ar2", V(0.6) + 3 * 0.2, 0.3); tl.fromTo($(".ah2"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, V(0.85) + 3 * 0.2);
+draw(".ar3", V(0.6) + 4 * 0.2, 0.3); tl.fromTo($(".ah3"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, V(0.85) + 4 * 0.2);
+tl.fromTo($(".head"), { opacity: 0, y: -10 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(1.6));
+tl.to([$(".ar3"), $(".ar2"), $(".ar1"), $(".ar0")], { stroke: "#3ee08f", duration: 0.3, stagger: 0.2 }, V(2.6));
+tl.to([$(".ah3"), $(".ah2"), $(".ah1"), $(".ah0")], { fill: "#3ee08f", duration: 0.3, stagger: 0.2 }, V(2.6));
+tl.to($(".head"), { x: -990, duration: 1.0, ease: IO }, V(4.4));
+tl.to([$(".c2"), $(".c3"), $(".c4"), $(".hs2"), $(".hs3"), $(".hs4")], { opacity: 0.3, duration: 0.5 }, V(4.9));
+tl.fromTo($(".cap"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.0));
+
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 6.75);
+          window.__timelines["s05"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>
